@@ -3,17 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class CutsceneText : MonoBehaviour
 {
     public string[] cutscene;
     private TextMeshProUGUI text;
+    public TextMeshProUGUI promptText;
+    private TMP_InputField input;
 
     // Start is called before the first frame update
     void Start()
     {
         text = GetComponent<TextMeshProUGUI>();
         text.text = cutscene[0];
-        StartCoroutine(ShowText(0));
+        input = promptText.GetComponentInChildren<TMP_InputField>();
     }
 
     // Update is called once per frame
@@ -22,10 +25,40 @@ public class CutsceneText : MonoBehaviour
         
     }
 
+    public void StartCutscene()
+    {
+        cutscene[0] = "Hello, " + SaveData.global.charName + ". ";
+        if (SaveData.global.charName.ToLower() == "asshole")
+        {
+            cutscene[1] = "You know what this is about already.";
+        }
+        StartCoroutine(ShowText(0));
+    }
+
+    public void GetName(string str)
+    {
+        SaveData.global.charName = input.text;
+        StartCoroutine(Fade());
+        StartCutscene();
+    }
+
+    IEnumerator Fade()
+    {
+        while (promptText.color.a > 0f)
+        {
+            promptText.color -= new Color(0.0f, 0.0f, 0.0f, 0.05f);
+            input.image.color -= new Color(0.0f, 0.0f, 0.0f, 0.05f);
+            yield return new WaitForSeconds(0.05f);
+        }
+        yield return new WaitForSeconds(1f);
+    }
+
     IEnumerator ShowText(int i)
     {
+        yield return new WaitForSeconds(3f);
         while (i < cutscene.Length)
         {
+            text.text = cutscene[i];
             while (text.color.a < 1f)
             {
                 text.color += new Color(0.0f, 0.0f, 0.0f, 0.025f);
@@ -38,9 +71,10 @@ public class CutsceneText : MonoBehaviour
                 yield return new WaitForSeconds(0.01f);
             }
             i++;
-            text.text = cutscene[i];
             yield return new WaitForSeconds(2f);
         }
     }
+
+
 
 }
