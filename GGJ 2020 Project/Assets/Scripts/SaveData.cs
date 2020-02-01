@@ -16,6 +16,7 @@ public class SaveData : MonoBehaviour
     public static SaveData global;
     
     public string charName;
+    public Dictionary<int, bool> achievements;
 
     private void Awake()
     {
@@ -29,6 +30,10 @@ public class SaveData : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        achievements = new Dictionary<int, bool>();
+        achievements.Add(1, false);
+        achievements.Add(2, true);
 
     }
 
