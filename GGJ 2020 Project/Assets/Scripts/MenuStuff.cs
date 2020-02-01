@@ -19,7 +19,7 @@ public class MenuStuff : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("OpeningScene");
     }
 
     public void QuitGame()
