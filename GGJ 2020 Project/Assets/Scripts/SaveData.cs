@@ -16,7 +16,14 @@ public class SaveData : MonoBehaviour
     public static SaveData global;
     
     public string charName;
-    public Dictionary<int, bool> achievements;
+    public Dictionary<int, bool> achievements = new Dictionary<int, bool>();
+    public int heartLevel = 0;
+    public bool kylie_clear = false;
+    public bool dog_clear = false;
+    public bool mike_clear = false;
+    public bool dom_clear = false;
+    public bool pants_clear = false;
+
 
     private void Awake()
     {
@@ -31,10 +38,13 @@ public class SaveData : MonoBehaviour
             Destroy(gameObject);
         }
 
-        achievements = new Dictionary<int, bool>();
-        achievements.Add(1, false);
-        achievements.Add(2, true);
-
+        for (int i = 1; i <= 8; i++)
+        {
+            if (!achievements.ContainsKey(i))
+            {
+                achievements.Add(i, true);
+            }
+        }
     }
 
     // Start is called before the first frame update
