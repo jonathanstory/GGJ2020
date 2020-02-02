@@ -33,6 +33,7 @@ public class CutsceneText : MonoBehaviour
             cutscene[1] = "You know what this is about already.";
         }
         StartCoroutine(ShowText(0));
+        
     }
 
     public void GetName(string str)
@@ -73,6 +74,7 @@ public class CutsceneText : MonoBehaviour
             i++;
             yield return new WaitForSeconds(2f);
         }
+        SceneManager.LoadScene("KylieScene1");
     }
 
 

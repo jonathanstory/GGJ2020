@@ -21,6 +21,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameBox;
     public GameObject choiceBox;
 
+    public SpriteRenderer fade;
 
 
     // Start is called before the first frame update
@@ -34,13 +35,14 @@ public class DialogueManager : MonoBehaviour
         playerTalking = false;
         parser = GameObject.Find("DialogueParser").GetComponent<DialogueParser>();
         lineNum = 0;
+        StartCoroutine(Fade());
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown (0) && playerTalking == false) {
+        if (Input.GetMouseButtonDown (0) && playerTalking == false && fade.color.a < 0.05f) {
         ShowDialogue();
 
         lineNum++;
@@ -132,5 +134,14 @@ public class DialogueManager : MonoBehaviour
             spriteObj.transform.position = new Vector3 (6, 0);
         }
         spriteObj.transform.position = new Vector3 (spriteObj.transform.position.x, spriteObj.transform.position.y, 0);
+    }
+
+    IEnumerator Fade()
+    {
+        while (fade.color.a > 0f)
+        {
+            fade.color -= new Color(0f, 0f, 0f, 0.01f);
+            yield return new WaitForSeconds(0.05f);
+        }
     }
 }
