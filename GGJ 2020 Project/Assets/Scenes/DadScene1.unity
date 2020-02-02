@@ -498,30 +498,31 @@ MonoBehaviour:
   - 'Dad: I know exactly why you''re here! You came to take up the family business!
     Modeling is half genetics anyway! '
   - 'Dad: Indeed, you''ve been fortunate enough to inherit my cheekbones! '
-  - 'You: Dad always did kind of believe that everyone wanted what he did... '
-  - 'You: How can I put this without hurting his feelings? '
+  - 'You: (Dad always did kind of believe that everyone wanted what he did...)'
+  - 'You: (How can I put this without hurting his feelings?)'
   - 'You: I don''t think I''m quite ready for that yet... (1) | Please no. God no.
     Good lord no. (2) '
   - 'Dad: Hmm. Don''t you worry darling! We''ll get you there!'
   - 'Dad: Hahaha! You''ve got such a lovely sense of humor!'
   - 'Dad: Now, the first step in getting you ready is a skincare routine! '
   - 'Dad: How do you think I got my trademark shine? '
-  - 'Dad: Beauty isn''t skin deep, but it is skin forwars, after all! '
-  - 'You: He''s starting to snowball...I don''t think there''s any stopping him now... '
+  - 'Dad: Beauty isn''t skin deep, but it is skin forward, after all! '
+  - 'You: (He''s starting to snowball...I don''t think there''s any stopping him
+    now...)'
   - 'Dad: Next we''ll have to get you a steady diet and gym routine! '
   - 'Dad: Fix some of...that... '
-  - 'You: Did he rally just gesture at me in general...? Ouch. '
+  - 'You: Did he really just gesture at me in general...? Ouch. '
   - 'Narrator: You step back slightly. Dad doesn''t appear to notice. '
   - 'Dad: Then there''s wardrobe! Have to pick out a style that suits! '
   - 'Narrator: You''re almost to the door! '
   - 'Dad: Then, accessories! '
   - 'You: Sweet, sweet escape. '
-  - 'You''ll come back later, once he''s cooled off a bit... '
-  - 'The most important thing is that you got back into contact with him. '
-  - 'You''re able to work towards making things right again. '
-  - 'The thought of that makes your heart feel full and satisfied. '
-  - 'There''s a long road ahead for everyone, but you''ve taken the first steps to
-    repair all the bonds you broke before. '
+  - 'Narrator: You''ll come back later, once he''s cooled off a bit... '
+  - 'Narrator: The most important thing is that you got back into contact with him. '
+  - 'Narrator: You''re able to work towards making things right again. '
+  - 'Narrator: The thought of that makes your heart feel full and satisfied. '
+  - 'Narrator: There''s a long road ahead for everyone, but you''ve taken the first
+    steps to repair all the bonds you broke before. '
   spriteChangePos: 090000000a0000000c0000000e0000000f0000000000000000000000000000000000000000000000
   spriteAppear: 6
   spriteExpressions:
@@ -628,10 +629,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1abe7b24f64135144b41e951371a510e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parser: {fileID: 0}
   dialogue: 
   characterName: 
   lineNum: 0
+  pose: 0
+  position: 
+  options: []
   playerTalking: 0
+  buttons: []
   dialogueBox: {fileID: 1261352173}
   nameBox: {fileID: 2049377492}
   choiceBox: {fileID: 3055554060735608584, guid: 7e85d9e4683797a49bc29b0fc4880f26,
