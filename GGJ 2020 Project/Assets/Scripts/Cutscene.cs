@@ -15,8 +15,9 @@ public class Cutscene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        heartContainer_0.sprite = containers.GetSprite("hearts_" + SaveData.global.heartLevel);
+        heartContainer_0.sprite = containers.GetSprite("hearts_" + (SaveData.global.heartLevel));
         heartContainer_1.sprite = containers.GetSprite("hearts_" + (SaveData.global.heartLevel + 1));
+        SaveData.global.heartLevel++;
         StartCoroutine(FadeIn());
     }
 
@@ -49,13 +50,20 @@ public class Cutscene : MonoBehaviour
         switch (SaveData.global.heartLevel)
         {
             case 1:
-                return "Scromples1";
+                SaveData.global.achievements[1] = true;
+                return "ScromplesScene1";
             case 2:
-                return "Mike1";
+                SaveData.global.achievements[2] = true;
+                return "MikeScene1";
             case 3:
-                return "Dominique1";
+                SaveData.global.achievements[3] = true;
+                return "DominiqueScene1";
             case 4:
-                return "Dad1";
+                SaveData.global.achievements[4] = true;
+                return "DadScene1";
+            case 5:
+                SaveData.global.achievements[5] = true;
+                return "MainMenu";
             default:
                 return "MainMenu";
         }

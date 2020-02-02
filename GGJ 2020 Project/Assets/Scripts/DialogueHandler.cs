@@ -44,7 +44,6 @@ public class DialogueHandler : MonoBehaviour
             {
                 currentLine++;
                 text.text = dialogue[currentLine];
-                Debug.Log(currentExpression);
                if (currentLine == spriteChangePos[currentExpression])
                {
                     character.sprite = chars.GetSprite(spriteExpressions[currentExpression]);
@@ -54,6 +53,10 @@ public class DialogueHandler : MonoBehaviour
                {
                     makingChoice = true;
                }
+            }
+            else
+            {
+                SceneManager.LoadScene("Cutscene");
             }
         }
         else if (makingChoice)
@@ -68,15 +71,12 @@ public class DialogueHandler : MonoBehaviour
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
-                currentLine+= 2;
+                currentLine += 2;
+                currentChoice++;
                 text.text = dialogue[currentLine];
                 makingChoice = false;
             }
         }
-        else
-        {
-            SaveData.global.heartLevel++;
-            SceneManager.LoadScene("Cutscene");
-        }
+        
     }
 }
