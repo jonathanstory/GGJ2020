@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dominique
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 2708ba696781e71499b39b9d4ac6c185, type: 3}
+    - {fileID: 2800000, guid: 2e7901770719884439b087c49377d4d3, type: 3}
+    - {fileID: 2800000, guid: ef36fe4186c17e849b957a48081e1cc2, type: 3}
+    - {fileID: 2800000, guid: 41995eaf46fc73344a4170ab9acc3650, type: 3}
+    - {fileID: 2800000, guid: 2687e8c323cb4a043a104e00750742a5, type: 3}
+    totalSpriteSurfaceArea: 15728640
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ef36fe4186c17e849b957a48081e1cc2, type: 3}
+  - {fileID: 21300000, guid: 2687e8c323cb4a043a104e00750742a5, type: 3}
+  - {fileID: 21300000, guid: 2e7901770719884439b087c49377d4d3, type: 3}
+  - {fileID: 21300000, guid: 2708ba696781e71499b39b9d4ac6c185, type: 3}
+  - {fileID: 21300000, guid: 41995eaf46fc73344a4170ab9acc3650, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mime_angry
+  - mime_surprised
+  - mime_neutral
+  - mime_happy
+  - mime_sad
+  m_Tag: Dominique
+  m_IsVariant: 0
