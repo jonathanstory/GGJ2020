@@ -20,14 +20,7 @@ public class MenuStuff : MonoBehaviour
 
     public void StartGame()
     {
-        if (File.Exists(Application.persistentDataPath + "/globalVars.dat") && SaveData.global.scene != "MainMenu")
-        {
-            SceneManager.LoadScene(SaveData.global.scene);
-        }
-        else
-        {
-            SceneManager.LoadScene("OpeningScene");
-        }
+        SceneManager.LoadScene("OpeningScene");
     }
 
     public void QuitGame()

@@ -57,7 +57,32 @@ public class DialogueHandler : MonoBehaviour
             
             else
             {
-                SceneManager.LoadScene("Cutscene");
+                switch (SceneManager.GetActiveScene().name)
+                {
+                    case "KylieScene1":
+                        SaveData.global.achievements[1] = true;
+                        SceneManager.LoadScene("ScromplesScene1");
+                        break;
+                    case "ScromplesScene1":
+                        SaveData.global.achievements[2] = true;
+                        SceneManager.LoadScene("MikeScene1");
+                        break;
+                    case "MikeScene1":
+                        SaveData.global.achievements[3] = true;
+                        SceneManager.LoadScene("DominiqueScene1");
+                        break;
+                    case "DominiqueScene1":
+                        SaveData.global.achievements[4] = true;
+                        SceneManager.LoadScene("DadScene1");
+                        break;
+                    case "DadScene1":
+                        SaveData.global.achievements[5] = true;
+                        SceneManager.LoadScene("MainMenu");
+                        break;
+                    default:
+                        SceneManager.LoadScene("MainMenu");
+                        break;
+                }
             }
             Debug.Log(currentExpression);
         }
