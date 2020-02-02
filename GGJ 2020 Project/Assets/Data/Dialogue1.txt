@@ -1,2 +1,12 @@
-Kylie;Test in bounds;0;R
-Test;Hey;0;R
+Narrator;By the force of sheer dumb luck, you find her during her shift at the local coffee shop. Gotta start the day with a massive load of caffeine, per usual.;0;L
+Kylie;Oh...it's you.;4;L
+Player;Oh, hey...Kylie...Um...;2;L
+
+
+
+
+
+
+
+
+// 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry

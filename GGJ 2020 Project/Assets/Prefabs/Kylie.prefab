@@ -45,7 +45,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPoses:
-  - {fileID: 21300000, guid: 401e76dac5505704b911b658fb3eb9a1, type: 3}
+  - {fileID: 21300000, guid: a8a30181a11d046449f6f391a5e14962, type: 3}
+  - {fileID: 21300000, guid: 91e8a559ca8baf4408d2e6d416960696, type: 3}
+  - {fileID: 21300000, guid: 5fa850fa77c945a42b2966c3fe2d4586, type: 3}
+  - {fileID: 21300000, guid: 2b31afe471d982549b69db3a8c357592, type: 3}
+  - {fileID: 21300000, guid: 858e61f802e6dc742bc4f6d58aa8b976, type: 3}
 --- !u!212 &8516603742022937259
 SpriteRenderer:
   m_ObjectHideFlags: 0
