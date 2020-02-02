@@ -302,7 +302,6 @@ GameObject:
   - component: {fileID: 573953422}
   - component: {fileID: 573953424}
   - component: {fileID: 573953423}
-  - component: {fileID: 573953425}
   m_Layer: 8
   m_Name: Panel
   m_TagString: Untagged
@@ -367,27 +366,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573953421}
   m_CullTransparentMesh: 0
---- !u!114 &573953425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573953421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1abe7b24f64135144b41e951371a510e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue: 
-  characterName: 
-  lineNum: 0
-  playerTalking: 0
-  dialogueBox: {fileID: 1261352173}
-  nameBox: {fileID: 2049377492}
-  choiceBox: {fileID: 3055554060735608584, guid: 7e85d9e4683797a49bc29b0fc4880f26,
-    type: 3}
-  fade: {fileID: 1449473873}
 --- !u!1 &776585456
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,8 +520,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1123186715
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2c43621ad8531e14c86409a12d7ef009, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -621,18 +599,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - This is a test
-  - oh Kylie's here
-  - hi Kylie
-  - pls don't be mad
-  - aaaaa
-  spriteChangePos: 
+  - By the force of sheer dumb luck, you find her during her shift at the local coffee
+    shop. Gotta start the day with a massive load of caffeine, per usual.
+  - 'Kylie: Oh...it''s you.'
+  - 'You: Oh, hey...Kylie...Um...'
+  - 'You: (Kylie... what was her last name again?)'
+  - 'Kylie: My last name is Aspen, you idiot. Geez, you don''t even remember your
+    former best friend''s name? What is wrong with you?'
+  - 
+  - 
+  - 
+  spriteChangePos: 04000000010000000000000000000000
   spriteAppear: 1
-  spriteExpressions: []
+  spriteExpressions:
+  - kylie_angry_updated
+  - 
+  - 
+  - 
+  - 
   text: {fileID: 1130951565}
   makingChoice: 0
-  choicePos: 
-  character: {fileID: 1398529949}
+  choicePos: 07000000000000000000000000000000
+  character: {fileID: 1547638506}
   chars: {fileID: 4343727234628468602, guid: b410c75908b825846958d220aef1c2df, type: 2}
 --- !u!114 &1130951565
 MonoBehaviour:
@@ -829,12 +817,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261352171}
   m_CullTransparentMesh: 0
---- !u!212 &1398529949 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 8516603742022937259, guid: 3605af575c8833147b9dd13aac1f254e,
-    type: 3}
-  m_PrefabInstance: {fileID: 4199976633076013365}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1410706519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,18 +1024,18 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_SortingLayerID: -1123186715
+  m_SortingLayer: 1
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: a8a30181a11d046449f6f391a5e14962, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 30, y: 48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1547638507
@@ -1064,8 +1046,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547638505}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -78.37983, y: -55.597126, z: 1443.8391}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.6, y: 26.4, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
