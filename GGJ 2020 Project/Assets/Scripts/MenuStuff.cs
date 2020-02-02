@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,7 +20,14 @@ public class MenuStuff : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("OpeningScene");
+        if (File.Exists(Application.persistentDataPath + "/globalVars.dat") && SaveData.global.scene != "MainMenu")
+        {
+            SceneManager.LoadScene(SaveData.global.scene);
+        }
+        else
+        {
+            SceneManager.LoadScene("OpeningScene");
+        }
     }
 
     public void QuitGame()

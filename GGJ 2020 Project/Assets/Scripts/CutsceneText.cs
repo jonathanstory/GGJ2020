@@ -22,7 +22,10 @@ public class CutsceneText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Space))
+        {
+            SceneManager.LoadScene("KylieScene1");
+        }
     }
 
     public void StartCutscene()
@@ -39,6 +42,10 @@ public class CutsceneText : MonoBehaviour
     public void GetName(string str)
     {
         SaveData.global.charName = input.text;
+        if (SaveData.global.charName.ToLower() == "asshole")
+        {
+            SaveData.global.achievements[6] = true;
+        }
         StartCoroutine(Fade());
         StartCutscene();
     }
@@ -73,6 +80,10 @@ public class CutsceneText : MonoBehaviour
             }
             i++;
             yield return new WaitForSeconds(2f);
+            if (i == 2 && SaveData.global.charName.ToLower().Equals("asshole"))
+            {
+                break;
+            }
         }
         SceneManager.LoadScene("KylieScene1");
     }
