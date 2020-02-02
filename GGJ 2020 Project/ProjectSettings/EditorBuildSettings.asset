@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KylieScene1.unity
     guid: 1476af55d48f6fc4e99c8a2050a019b6
+  - enabled: 1
+    path: Assets/Scenes/ScromplesScene1.unity
+    guid: d461b540964393e4883199d3f2687509
+  - enabled: 1
+    path: Assets/Scenes/MikeScene1.unity
+    guid: e0b8dbfc7d8c2ad43b73aee11d17b149
+  - enabled: 1
+    path: Assets/Scenes/DominiqueScene1.unity
+    guid: cb6f649e60da3dd4088dd4412433792a
+  - enabled: 1
+    path: Assets/Scenes/DadScene1.unity
+    guid: c21c5aaed4aa841449a09bcefdb98045
   m_configObjects: {}
