@@ -516,11 +516,12 @@ MonoBehaviour:
   - 'Narrator: You''re almost to the door! '
   - 'Dad: Then, accessories! '
   - 'You: Sweet, sweet escape. '
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 'You''ll come back later, once he''s cooled off a bit... '
+  - 'The most important thing is that you got back into contact with him. '
+  - 'You''re able to work towards making things right again. '
+  - 'The thought of that makes your heart feel full and satisfied. '
+  - 'There''s a long road ahead for everyone, but you''ve taken the first steps to
+    repair all the bonds you broke before. '
   - 
   spriteChangePos: 090000000a0000000c0000000e0000000f0000000000000000000000000000000000000000000000
   spriteAppear: 6
