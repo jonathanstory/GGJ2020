@@ -145,7 +145,6 @@ public class SaveData : MonoBehaviour
 //It's done this way because if you do it in a class w/ methods and such, weird things happen
 class PersistentData : System.Object
 {
-    public string charName;
     public Dictionary<int, bool> achievements = new Dictionary<int, bool>();
     public int heartLevel = 0;
     public string scene;
