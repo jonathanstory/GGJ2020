@@ -29,8 +29,9 @@ Scromples:  Borf! (Yes!)
 Scromples:  Woof! (That's better!)
 Narrator: You realize that you need to make it up to Scromples if you want him back.
 You: You wanna play fetch? (keybind 1) | You wanna go for a walk? (keybind 2)
-Scromples
-Narrator: You and Scromples walk back to your apartment. He seems confused as to why you live in a new house, but is excited enough that you're here again.
+Scromples: Yip! (Not gonna work, I have amazing willpower!)... Bark! (Okay, maybe it will work!) //OPTION 1
+Scromples: Boof! (Yes! Walk is always correct answer!)
+Narrator: After spending some quality time together, you and Scromples walk back to your apartment. He seems confused as to why you live in a new house, but is excited enough that you're here again.
 Narrator: With your faithful pooch back at your side, you vow internally to be sure you remember to always bring him with you.
 Narrator: Your heart feels a little less empty than before...
 
