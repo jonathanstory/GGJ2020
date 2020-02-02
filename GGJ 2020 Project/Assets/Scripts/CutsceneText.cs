@@ -22,7 +22,7 @@ public class CutsceneText : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Delete))
         {
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("KylieScene1");
         }
     }
 
