@@ -8,15 +8,13 @@ public class CutsceneText : MonoBehaviour
 {
     public string[] cutscene;
     private TextMeshProUGUI text;
-    public TextMeshProUGUI promptText;
-    private TMP_InputField input;
 
     // Start is called before the first frame update
     void Start()
     {
         text = GetComponent<TextMeshProUGUI>();
         text.text = cutscene[0];
-        input = promptText.GetComponentInChildren<TMP_InputField>();
+        StartCutscene();
     }
 
     // Update is called once per frame
@@ -26,44 +24,17 @@ public class CutsceneText : MonoBehaviour
         {
             SceneManager.LoadScene("KylieScene1");
         }
+        
     }
 
     public void StartCutscene()
     {
-        cutscene[0] = "Hello, " + SaveData.global.charName + ". ";
-        if (SaveData.global.charName.ToLower() == "asshole")
-        {
-            cutscene[1] = "You know what this is about already.";
-        }
         StartCoroutine(ShowText(0));
-        
-    }
-
-    public void GetName(string str)
-    {
-        SaveData.global.charName = input.text;
-        if (SaveData.global.charName.ToLower() == "asshole")
-        {
-            SaveData.global.achievements[6] = true;
-        }
-        StartCoroutine(Fade());
-        StartCutscene();
-    }
-
-    IEnumerator Fade()
-    {
-        while (promptText.color.a > 0f)
-        {
-            promptText.color -= new Color(0.0f, 0.0f, 0.0f, 0.05f);
-            input.image.color -= new Color(0.0f, 0.0f, 0.0f, 0.05f);
-            yield return new WaitForSeconds(0.05f);
-        }
-        yield return new WaitForSeconds(1f);
     }
 
     IEnumerator ShowText(int i)
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0.5f);
         while (i < cutscene.Length)
         {
             text.text = cutscene[i];
@@ -80,14 +51,9 @@ public class CutsceneText : MonoBehaviour
             }
             i++;
             yield return new WaitForSeconds(2f);
-            if (i == 2 && SaveData.global.charName.ToLower().Equals("asshole"))
-            {
-                break;
-            }
         }
         SceneManager.LoadScene("KylieScene1");
     }
-
 
 
 }

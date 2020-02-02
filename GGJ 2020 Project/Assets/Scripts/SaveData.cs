@@ -18,7 +18,6 @@ public class SaveData : MonoBehaviour
 
     public static SaveData global;
     
-    public string charName;
     public Dictionary<int, bool> achievements = new Dictionary<int, bool>();
     public int heartLevel = 0;
     public string scene;
@@ -39,7 +38,7 @@ public class SaveData : MonoBehaviour
 
         if (!File.Exists(Application.persistentDataPath + "/globalVars.dat"))
         {
-            for (int i = 1; i <= 8; i++)
+            for (int i = 1; i <= 7; i++)
             {
                 if (!achievements.ContainsKey(i))
                 {
@@ -91,7 +90,6 @@ public class SaveData : MonoBehaviour
             PersistentData data = (PersistentData)bf.Deserialize(file);
             file.Close();
 
-            charName = data.charName;
             achievements = data.achievements;
             heartLevel = data.heartLevel;
             scene = data.scene;
@@ -109,7 +107,6 @@ public class SaveData : MonoBehaviour
         //Creates a new reference to the PersistentData class
         //Writes the data to the file, then closes it
         PersistentData data = new PersistentData();
-        data.charName = charName;
         data.achievements = achievements;
         data.heartLevel = heartLevel;
         if (!scene.Equals("MainMenu"))
@@ -126,7 +123,6 @@ public class SaveData : MonoBehaviour
         if (File.Exists(Application.persistentDataPath + "/globalVars.dat"))
         {
             File.Delete(Application.persistentDataPath + "/globalVars.dat");
-            charName = null;
             for (int i = 0; i < achievements.Count; i++)
             {
                 achievements[i] = false;
