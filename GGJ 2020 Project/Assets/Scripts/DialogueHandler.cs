@@ -70,7 +70,6 @@ public class DialogueHandler : MonoBehaviour
             {
                 currentLine+= 2;
                 text.text = dialogue[currentLine];
-                currentChoice++;
                 makingChoice = false;
             }
         }
