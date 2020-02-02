@@ -54,24 +54,47 @@ public class DialogueHandler : MonoBehaviour
                     makingChoice = true;
                }
             }
+            
             else
             {
                 SceneManager.LoadScene("Cutscene");
             }
+            Debug.Log(currentExpression);
         }
         else if (makingChoice)
         {
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 currentLine++;
+                if (currentLine == spriteChangePos[currentExpression])
+                {
+                    character.sprite = chars.GetSprite(spriteExpressions[currentExpression]);
+                    currentExpression++;
+                }
                 text.text = dialogue[currentLine];
                 currentChoice++;
                 makingChoice = false;
                 currentLine++;
+                if (currentLine == spriteChangePos[currentExpression])
+                {
+                    character.sprite = chars.GetSprite(spriteExpressions[currentExpression]);
+                    currentExpression++;
+                }
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
-                currentLine += 2;
+                currentLine++;
+                if (currentLine == spriteChangePos[currentExpression])
+                {
+                    character.sprite = chars.GetSprite(spriteExpressions[currentExpression]);
+                    currentExpression++;
+                }
+                currentLine++;
+                if (currentLine == spriteChangePos[currentExpression])
+                {
+                    character.sprite = chars.GetSprite(spriteExpressions[currentExpression]);
+                    currentExpression++;
+                }
                 currentChoice++;
                 text.text = dialogue[currentLine];
                 makingChoice = false;
