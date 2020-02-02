@@ -11,7 +11,6 @@ public class Cutscene : MonoBehaviour
     public SpriteRenderer heartContainer_0;
     public SpriteRenderer heartContainer_1;
     public SpriteAtlas containers;
-    public Scene nextScene;
 
     // Start is called before the first frame update
     void Start()
@@ -42,5 +41,23 @@ public class Cutscene : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
         yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(GetScene());
     } 
+
+    string GetScene()
+    {
+        switch (SaveData.global.heartLevel)
+        {
+            case 1:
+                return "Scromples1";
+            case 2:
+                return "Mike1";
+            case 3:
+                return "Dominique1";
+            case 4:
+                return "Dad1";
+            default:
+                return "MainMenu";
+        }
+    }
 }
