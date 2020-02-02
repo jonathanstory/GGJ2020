@@ -62,6 +62,7 @@ public class DialogueHandler : MonoBehaviour
                 text.text = dialogue[currentLine];
                 currentChoice++;
                 makingChoice = false;
+                currentLine++;
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
