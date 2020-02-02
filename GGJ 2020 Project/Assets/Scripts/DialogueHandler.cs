@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.U2D;
+using UnityEngine.SceneManagement;
 
 public class DialogueHandler : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class DialogueHandler : MonoBehaviour
     public int[] choicePos;
     public SpriteRenderer character;
     public SpriteAtlas chars;
+    public string nextScene;
     private int currentLine;
     private int currentExpression;
     private int currentChoice;
@@ -43,15 +45,16 @@ public class DialogueHandler : MonoBehaviour
             {
                 currentLine++;
                 text.text = dialogue[currentLine];
+                Debug.Log(currentExpression);
                if (currentLine == spriteChangePos[currentExpression])
-                {
+               {
                     character.sprite = chars.GetSprite(spriteExpressions[currentExpression]);
                     currentExpression++;
-                }
-                if (currentLine == choicePos[currentChoice])
-                {
+               }
+               if (currentLine == choicePos[currentChoice])
+               {
                     makingChoice = true;
-                }
+               }
             }
         }
         else if (makingChoice)
@@ -61,6 +64,7 @@ public class DialogueHandler : MonoBehaviour
                 currentLine++;
                 text.text = dialogue[currentLine];
                 currentChoice++;
+                currentLine++;
                 makingChoice = false;
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -73,7 +77,7 @@ public class DialogueHandler : MonoBehaviour
         }
         else
         {
-            //end text
+            SceneManager.LoadScene(nextScene);
         }
     }
 }
