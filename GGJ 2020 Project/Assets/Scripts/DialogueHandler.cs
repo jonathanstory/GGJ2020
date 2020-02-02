@@ -17,7 +17,6 @@ public class DialogueHandler : MonoBehaviour
     public int[] choicePos;
     public SpriteRenderer character;
     public SpriteAtlas chars;
-    public string nextScene;
     private int currentLine;
     private int currentExpression;
     private int currentChoice;
@@ -64,7 +63,6 @@ public class DialogueHandler : MonoBehaviour
                 currentLine++;
                 text.text = dialogue[currentLine];
                 currentChoice++;
-                currentLine++;
                 makingChoice = false;
                 currentLine++;
             }
@@ -78,7 +76,8 @@ public class DialogueHandler : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(nextScene);
+            SaveData.global.heartLevel++;
+            SceneManager.LoadScene("Cutscene");
         }
     }
 }

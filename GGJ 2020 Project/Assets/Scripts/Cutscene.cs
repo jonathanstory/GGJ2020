@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.U2D;
+using UnityEngine.SceneManagement;
 
 public class Cutscene : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Cutscene : MonoBehaviour
     public SpriteRenderer heartContainer_0;
     public SpriteRenderer heartContainer_1;
     public SpriteAtlas containers;
+    public Scene nextScene;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +42,5 @@ public class Cutscene : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
         yield return new WaitForSeconds(1f);
-        Debug.Log("done");
     } 
 }
