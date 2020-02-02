@@ -1330,6 +1330,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Narrator
       objectReference: {fileID: 0}
+    - target: {fileID: 7776837872780288864, guid: 20810d675e43b374a9110eaf7838f652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7776837872780288893, guid: 20810d675e43b374a9110eaf7838f652,
         type: 3}
       propertyPath: characterPoses.Array.size
@@ -1488,6 +1493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035952111478397703, guid: 523f03bd41476c1438647df69585d293,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 523f03bd41476c1438647df69585d293, type: 3}

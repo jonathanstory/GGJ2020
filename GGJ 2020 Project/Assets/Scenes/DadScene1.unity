@@ -471,21 +471,21 @@ MonoBehaviour:
   - 'Narrator: You enter through the door, and there he is... '
   - 'Narrator: Your father. '
   - 'Dad: Oh Ho! Hello there! '
-  - '-You: Hi Dad! (1) | This was a mistake... (2)'
+  - 'You: Hi Dad! (1) | This was a mistake... (2)'
   - 'Dad: So good to see you!'
   - 'Dad: Nonsense! Welcome to my studio! '
   - 'Dad: Why, I haven''t seen you in such a long time. '
   - 'Dad: Ever since you left to go to the store when you were nine, and never returned! '
   - 'Dad: Say, did you ever get the milk you said you were going to buy? '
-  - '-You: I did. My bones are stronger for it. (1) | Honestly, I just wanted to
-    leave. (2)'
+  - 'You: I did. My bones are stronger for it. (1) | Honestly, I just wanted to leave.
+    (2)'
   - 'Dad: So they are! My oh my, aren''t you just a chip off the old block!'
   - 'Dad: I can''t possibly understand why you would!'
   - 'Dad: Now, my wonderful child. I''m truly glad that you''ve come back. '
   - 'Dad: But you must know how much it hurt me that you left!! '
   - 'Dad: Whysoever did you feel the need to leave? '
-  - '-You: It was an awful thing to do. I don''t even really know anymore... (1)
-    | I decided that my lungs need more air than perfume. (2) '
+  - 'You: It was an awful thing to do. I don''t even really know anymore... (1) |
+    I decided that my lungs need more air than perfume. (2) '
   - 'Dad: Don''t really know what, dear? There''s really no use in remembering something
     if you''ve already forgot it, young offspring of mine!'
   - 'Dad: Oh! Well, if I had known you didn''t like that brand I''d have switched!
@@ -500,7 +500,7 @@ MonoBehaviour:
   - 'Dad: Indeed, you''ve been fortunate enough to inherit my cheekbones! '
   - 'You: Dad always did kind of believe that everyone wanted what he did... '
   - 'You: How can I put this without hurting his feelings? '
-  - '-You: I don''t think I''m quite ready for that yet... (1) | Please no. God no.
+  - 'You: I don''t think I''m quite ready for that yet... (1) | Please no. God no.
     Good lord no. (2) '
   - 'Dad: Hmm. Don''t you worry darling! We''ll get you there!'
   - 'Dad: Hahaha! You''ve got such a lovely sense of humor!'
@@ -522,7 +522,6 @@ MonoBehaviour:
   - 'The thought of that makes your heart feel full and satisfied. '
   - 'There''s a long road ahead for everyone, but you''ve taken the first steps to
     repair all the bonds you broke before. '
-  - 
   spriteChangePos: 090000000a0000000c0000000e0000000f0000000000000000000000000000000000000000000000
   spriteAppear: 6
   spriteExpressions:
