@@ -878,10 +878,7 @@ MonoBehaviour:
     for the self-absorbed jerk convention?) '
   - 'Narrator: The longer this conversation goes on, the more you realize that this
     might not be something worth salvaging... '
-  - 'You: Well, at the very least I can say I tried (1) | This has been thoroughly
-    unpleasant. I''m leaving now. (2)'
-  - 'Dominique: [Sarcastically waves invisible handkerchief in farewell] (Uh huh.
-    Buh-bye.) '
+  - 'You: This has been thoroughly unpleasant. I''m leaving now.'
   - 'Dominique: [Sarcastically waves invisible handkerchief in farewell] (Uh huh.
     Buh-bye.) '
   - 'Narrator: You promptly walk the hell away from Dominique. '
@@ -902,7 +899,7 @@ MonoBehaviour:
   - mime_angry
   text: {fileID: 1054517470}
   makingChoice: 0
-  choicePos: 130000001b0000002300000000000000
+  choicePos: 130000001b000000
   character: {fileID: 422668761}
   chars: {fileID: 4343727234628468602, guid: 5fd2dd95955e64047a470e779c772eae, type: 2}
 --- !u!1 &1261352171
