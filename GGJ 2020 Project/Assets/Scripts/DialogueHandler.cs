@@ -55,6 +55,10 @@ public class DialogueHandler : MonoBehaviour
                     makingChoice = true;
                }
             }
+            else
+            {
+                SceneManager.LoadScene("Cutscene");
+            }
         }
         else if (makingChoice)
         {
@@ -73,10 +77,6 @@ public class DialogueHandler : MonoBehaviour
                 makingChoice = false;
             }
         }
-        else
-        {
-            SaveData.global.heartLevel++;
-            SceneManager.LoadScene("Cutscene");
-        }
+        
     }
 }
