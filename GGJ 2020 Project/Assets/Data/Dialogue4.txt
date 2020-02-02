@@ -1,3 +1,47 @@
+Narrator: After getting back home from your shift at the office, you realize that another person you really need to get back in touch with is your DAD. You haven't seen him in years. 
+Narrator: From what you can tell, he's been quite successful, but for a few reasons, you've stayed away.
+Narrator: Before any of that, though, you need some rest.
+Narrator: You feed Scromples, pat him gently on the head, and go to your bed for the night.
+Narrator: You wake up with a dog's posterior in your face. Scromples has fully claimed your bed.
+Narrator: Doing your best to ignore the anatomy of the dog's hindparts, you get up and head out for the day, determined to find your dad...
+Narrator: You know he works in the theater district of town, so you begin walking in that general direction.
+Narrator: As you stroll through the park on the way, you begin to see a variety of street performers along the sides of the path.
+Narrator: Oh, God.
+Narrator: Street performers.
+Narrator: You begin to worry. The more street performers you pass, the more likely one of them will be...
+Narrator: Your EX.
+Narrator: Oh. Oh no.
+Narrator: Your fears were completely justified.
+Narrator: It's them. It's your ex. It's... Dominique.
+Narrator: And, oh boy, are they a sight you never wanted to see again.
+Narrator: While fighting to move against imaginary wind, Dominique makes eye contact with you for a split second, then frowns and stands still.
+Dominique: [Draws finger across throat threateningly] (Why the hell are you here?)
+Narrator: The only good thing you got out of that relationship was the ability to speak mime.
+You: Good to see you too. (1) | Why are YOU here? Is mimery really that lucrative? (2)
+Dominique: [Pretends to throw up into an invisible trashcan] (As if anything good ever comes out of you being nearby.) //OPTION 1
+Dominique: [Dramatically rubs fingers together] (I probably make more doing this than you do at your little desk job!) //OPTION 2
+
+Dominique: [Wipes brow] (It truly is exhausting to be in your presense.)
+You: I mean, I'm doing my best to become a better person over here.
+Narrator: You think about your recent change of heart. You wonder if you should try to patch things up with Dominique, too...
+You: Hey, Dominique. Why didn't things work out between us?
+Dominique: [Points at own head with both hands] (You were too busy with your head up your ass to learn how to communicate!)
+You: I think I'm past that now, and I want to make things right with everyone... (1) | [Mockingly pretend to be trapped in an invisible box] (2)
+Dominique: [Silenty and exaggeratedly sighs] (Maybe I don't want to make things right with you.) //OPTION 1
+Dominique: [Points and laughs silently] (Your accent is awful!) //OPTION 2
+
+Dominique: [Gestures towards their shirt] (I was only into you because you used to wear stripes.)
+Narrator: You experience a flashback to the time in your life when you effectively dressed like Waldo.
+You: Hurtful, but a lot of things make more sense now.
+Dominique: [Checks nonexistent watch] (You're still here? Aren't you late for the self-absorbed jerk convention?)
+Narrator: The longer this conversation goes on, the more you realize that this might not be something worth salvaging...
+You: Well, at the very least I can say I tried (1) | This has been thoroughly unpleasant. I'm leaving now.
+//NO OPTIONS
+
+Dominique: [Sarcastically waves invisible handkerchief in farewell] (Uh huh. Buh-bye.)
+Narrator: You promptly walk the hell away from Dominique.
+Narrator: You would consider this encounter an utter failure, but you realized that you weren't the ONLY asshole in that relationship.
+Narrator: The knowledge that you weren't the sole problem for once makes your heart feel a little more full.
 
 // Outline: [speaker];[quote];[sprite];[position]
 // 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry
