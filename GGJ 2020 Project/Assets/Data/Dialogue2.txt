@@ -1,3 +1,35 @@
+Scromples;*lick*;0;L
+Narrator;You receive perhaps the rudest awakening you've ever experienced.;0;L
+You;Man... What a night... I think I passed out.;2;L
+You;I don't think I've ever physically exerted myself so much in my life.;2;L
+Scromples;*lick*;0;L
+Narrator;The warm, wet tongue of a dog once again assaults your face.;0;L
+You;Woah! Calm down there, I'm awake! I'm awake!;2;L
+Narrator;A familiar face meets your eyes.;0;L
+You;Scromples?;2;L
+Scromples; Arf! (Been a long time since I saw you!);1;L
+Scromples; Boof! (Where did you go??? It's been forever!);1;L
+Narrator;You remember feeling like you forgot something when you moved to your new apartment three weeks ago... Oops.;2;L
+
+Scromples; Woof! (It has been at least...);3;L
+Scromples; Grr! (Eight THOUSAND years since you got back!);4;L
+Scromples; Bow! (I could have starved!);3;L
+Scromples; Ruff! (And you're just sitting there!);0;L
+Scromples; Arf! (I have not received...);0;L
+Scromples; Bark! (A single pat!);3;L
+Narrator;It comes to your attention that this whole time, you haven't actually gotten up off the grass. You stand, and get a better look at the adorable mutt staring longingly up at you.;0;L
+
+Narrator;In situations like these, it is physically impossible to not pet the dog.;0;L
+Narrator;So you pet the dog.;0;L
+Narrator;Scromples allows it, staring up at you begrudgingly.;0;L
+Scromples; Borf! (Yes!);0;L
+Scromples; Woof! (That's better!);0;L
+Narrator;You realize that you need to make it up to Scromples if you want him back.;0;L
+
+Narrator;You and Scromples walk back to your apartment. He seems confused as to why you live in a new house, but is excited enough that you're here again.;0;L
+Narrator;With your faithful pooch back at your side, you vow internally to be sure you remember to always bring him with you.;0;L
+Narrator;Your heart feels a little less empty than before...;0;L
+
 
 // Outline: [speaker];[quote];[sprite];[position]
 // 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry

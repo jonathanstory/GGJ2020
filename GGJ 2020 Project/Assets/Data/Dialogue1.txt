@@ -1,12 +1,25 @@
 Narrator;By the force of sheer dumb luck, you find her during her shift at the local coffee shop. Gotta start the day with a massive load of caffeine, per usual.;0;L
 Kylie;Oh...it's you.;4;L
-Player;Oh, hey...Kylie...Um...;2;L
+You;Oh, hey...Kylie...Um...;2;L
+You;(Kylie... what was her last name again?);2;L
 
+Kylie;My last name is Aspen, you idiot. Geez, you don't even remember your former best friend's name? What is wrong with you?;4;L
 
+Kylie;You never believed in my dreams of becoming a musician, and you've never cared about my goals in life. You didn't go to my first concert even when I held it in your backyard!;4;L
+You;(I had a backyard?);2;L
+Kylie;And now you show back up, thinking that'll fix anything?;4;L
 
+Kylie;I guess I do appreciate the effort.;2;L
+Kylie;Just don't expect me to start liking you again just because you want me to. Seriously, what's with that sudden change of heart?;2;L
+Kylie;Why are you so interested in my life now?;2;L
 
-
-
+Kylie;Look, it's cool that you're starting to be cool and all, but I've got a job to finish here.;0;L
+Kylie;As your luck would have it, I'm going to be performing at a concert tonight. Show up to that, and we'll see.;0;L
+Narrator;3 hours and $322 in ticket costs later...;0;L
+Narrator;The concert was being held in a park near the center of town.;0;L
+Narrator;You stood near the front, where Kylie could see you while she was up playing guitar.;0;L
+Narrator;There's a long way to go before she forgives you, but hey, it's a start.;0;L
+Narrator;Your heart feels a little less empty than before...;0;L
 
 // Outline: [speaker];[quote];[sprite];[position]
 // 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry
