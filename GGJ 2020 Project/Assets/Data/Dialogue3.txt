@@ -1,3 +1,5 @@
+BACKGROUND IN
+
 Narrator: With the end of a rather eventful weekend, you head back to the office for another day's work.
 Narrator: You think of all the toes you've stepped on and people you've cut off to get to your position at Business Incorporated.
 Narrator: One person in particular comes to mind... A graduate fried from college and a co-worker ever since, Mike.
@@ -42,6 +44,8 @@ You: Um... Okay. Thanks, Rowafe.
 Mike: You may refer to me as Mike.
 Narrator: You're not really sure what happened there, and the lunchbreak's almost over anyways, but Mike seems happy enough that you've acknowledged his existence for once...as happy as someone like him can get, at least.
 Narrator: With the knowledge that you've done all you can do, probably, your heart starts to feel a little more full.
+
+FADE BLACK
 
 // Outline: [speaker];[quote];[sprite];[position]
 // 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry
