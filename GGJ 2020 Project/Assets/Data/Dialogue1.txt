@@ -8,5 +8,5 @@ Player;Oh, hey...Kylie...Um...;2;L
 
 
 
-
+// Outline: [speaker];[quote];[sprite];[position]
 // 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry
