@@ -879,7 +879,7 @@ MonoBehaviour:
   - 'Narrator: The longer this conversation goes on, the more you realize that this
     might not be something worth salvaging... '
   - 'You: Well, at the very least I can say I tried (1) | This has been thoroughly
-    unpleasant. I''m leaving now. '
+    unpleasant. I''m leaving now. (2)'
   - 'Dominique: [Sarcastically waves invisible handkerchief in farewell] (Uh huh.
     Buh-bye.) '
   - 'Dominique: [Sarcastically waves invisible handkerchief in farewell] (Uh huh.
@@ -905,7 +905,6 @@ MonoBehaviour:
   choicePos: 130000001b0000002300000000000000
   character: {fileID: 422668761}
   chars: {fileID: 4343727234628468602, guid: 5fd2dd95955e64047a470e779c772eae, type: 2}
-  nextScene: 
 --- !u!1 &1261352171
 GameObject:
   m_ObjectHideFlags: 0
