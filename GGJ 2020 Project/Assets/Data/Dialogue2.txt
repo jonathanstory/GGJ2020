@@ -35,6 +35,5 @@ Narrator: After spending some quality time together, you and Scromples walk back
 Narrator: With your faithful pooch back at your side, you vow internally to be sure you remember to always bring him with you.
 Narrator: Your heart feels a little less empty than before...
 
-
 // Outline: [speaker]: [quote]: [sprite]: [position]
 // 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry

@@ -1,3 +1,51 @@
+BACKGROUND IN
+
+Narrator: With the end of a rather eventful weekend, you head back to the office for another day's work.
+Narrator: You think of all the toes you've stepped on and people you've cut off to get to your position at Business Incorporated.
+Narrator: One person in particular comes to mind... A graduate fried from college and a co-worker ever since, Mike.
+Narrator: You see Mike in the breakroom around noon, and decide to strike up a conversation with him...
+You: Hey, Mike, how've you been?
+Mike: As well as I am capable of being. Why would I be anything else?
+Narrator: Yep, that's Mike for you. Always seeing the obvious side of things. A real people-pleaser.
+Mike: Also, seeing as you have not deemed it necessary to make adequate contact with me for all these years, I find it very coarse of you to address me in such a comradely manner.
+Mike: Please, address me by my surname in further correspondence... Rowafe.
+Mike: What are your intentions in talking with me?
+You: I want to make amends for desregarding you in the past, Rowafe. (keybind 1) | I wanted to exchange useless pleasantries for the next hour.
+Mike: How humorous. You know you never paid any heed to me in the past, why should I believe that you suddenly wish to in the present? //OPTION 1
+Mike: If you wanted to do that, you could have had a delightful talk with the receptionist. //OPTION 2
+
+Narrator: Yeah, that's Mike... always straight to business. Makes sense, too: having both graduated from the University of Business together and worked in the same firms by coincidence, it's astounding you never noticed him.
+Mike: If all you wish to do is waste my precious time, then I suggest you move on to a more talkative and less shrewd acquaintance.
+You: Look, I'm trying my best here, okay? Cut me some slack...
+Mike: Cutting actually reduces the amount of slack available to work with to zero, due to the fact that all tension has been lost.
+You: ...
+Mike: In any case, I see no reason to go out of my way to be considerate to you. You have never even acknowledged my condition.
+You: Your... condition? (keybind 1) | As if it needed acknowledging... (keybind 2)
+Narrator: You wonder what he couuld possibly be talking about. Isn't it obvious? //OPTION 1
+Narrator: Mike doesn't seem to take that comment too well. Might have pressed the wrong buttons there. //OPTION 2
+
+Mike: Yes, my condition. I understand that I am not treated normally due to it. I think people have begun to notice it more pointedly of late.
+Mike: I have had conversations relating to such matters with you in the past. Do you not recall these consultations?
+You: I'm sorry, but I really don't. (keybind 1) | Something about the popcorn setting never working? (keybind 2)
+Mike: To be expected of someone of your caliber //OPTION 1
+Mike: What are you even talking about? //OPTION 2
+
+Mike: I am, of course, referring to my anxious nature. It is not easy to live with anxiety. 
+Mike: Having to find a method of standing out from the rest of my coworkers has always been a constant source of stressors for me.
+Narrator: It's amazing to you how brilliant and blissfully ignorant Mike can be at the same time.
+You: Sorry I forgot...I understand you've been a pretty integral part of my life for a long time now, so I really should have made a better effort to get to know you.
+Mike: Most everyone makes mistakes.
+Mike: Not me, though.
+Mike: As for you... well, some make more mistakes than others.
+Mike: You put those 'some' to shame.
+You: Well, you're welcome, I guess.
+Mike: However, your forthrightness betrays your honest intentions. I believe you are trying to reconnect and applaud your effort...as ultimately futile as it may be. 
+You: Um... Okay. Thanks, Rowafe.
+Mike: You may refer to me as Mike.
+Narrator: You're not really sure what happened there, and the lunchbreak's almost over anyways, but Mike seems happy enough that you've acknowledged his existence for once...as happy as someone like him can get, at least.
+Narrator: With the knowledge that you've done all you can do, probably, your heart starts to feel a little more full.
+
+FADE BLACK
 
 // Outline: [speaker];[quote];[sprite];[position]
 // 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry

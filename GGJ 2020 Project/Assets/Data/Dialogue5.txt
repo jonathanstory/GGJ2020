@@ -1,3 +1,70 @@
-
 // Outline: [speaker];[quote];[sprite];[position]
-// 0 = neutral, 1 = surprise, 2 = doubt, 3 = sad, 4 = angry
+
+AT BLACK
+
+Narrator: After your distraction with Dominique, you take a moment to regain your bearings. You need to find your dad's place of work.
+Narrator: You walk through the theater district for a while until you finally see the building: "CleftCo Male Modeling Agency".
+
+BACKGROUND IN
+
+Narrator: This is where he works. You walk through the doors and are immediately assaulted by the scent of every cologne known to mankind.
+Narrator: You tell the secretary who you're looking for, and he directs you to a photography studio on your right.
+Narrator: You enter through the door, and there he is...
+Narrator: Your father.
+
+(DISPLAY SPRITE ON THIS LINE VVV)
+Dad: Oh Ho! Hello there!
+You: Hi Dad! (Keybind 1) | This was a mistake... (Keybind 2)
+Dad: So good to see you! //Option 1
+Dad: Nonsense! Welcome to my studio! //Option 2
+
+Dad: Why, I haven't seen you in such a long time.
+Dad: Ever since you left to go to the store when you were nine, and never returned!
+Dad: Say, did you ever get the milk you said you were going to buy?
+You: I did. My bones are stronger for it. (Keybind 1) | Honestly, I just wanted to leave. (Keybind 2)
+Dad: So they are! My oh my, aren't you just a chip off the old block! //Option 1
+Dad: I can't possibly understand why you would! //Option 2
+
+Dad: Now, my wonderful child. I'm truly glad that you've come back.
+Dad: But you must know how much it hurt me that you left!!
+Dad: Whysoever did you feel the need to leave?
+You: It was an awful thing to do. I don't even really know anymore... (Keybind 1) | I decided that my lungs need more air than perfume. (Keybind 2)
+Dad: Don't really know what, dear? There's really no use in remembering something if you've already forgot it, young offspring of mine! (Option 1)
+Dad: Oh! Well, if I had known you didn't like that brand I'd have switched! It's really all about the fragrances! Really, I would have been happy to take you out sampling! (Option 2)
+
+You: I don't think he really got the point of that, but that's fine.
+Dad: Take a lesson from your old man...I'm glad you finally decided to join me in my endeavor of beauty!
+Endeavor of what?
+Dad: I know exactly why you're here! You came to take up the family business! Modeling is half genetics anyway!
+Dad: Indeed, you've been fortunate enough to inherit my cheekbones!
+Dad always did kind of believe that everyone wanted what he did...
+You: How can I put this without hurting his feelings?
+You: I don't think I'm quite ready for that yet... (Keybind 1) | Please no. God no. Good lord no. (Keybind 2)
+Dad: Hmm. Don't you worry darling! We'll get you there! //Option 1
+Dad: Hahaha! You've got such a lovely sense of humor! //Option 2
+
+Dad: Now, the first step in getting you ready is a skincare routine!
+Dad: How do you think I got my trademark shine?
+Dad: Beauty isn't skin deep, but it is skin forwars, after all!
+You: He's starting to snowball...I don't think there's any stopping him now...
+Dad: Next we'll have to get you a steady diet and gym routine!
+Dad: Fix some of...that...
+You: Did he rally just gesture at me in general...? Ouch.
+Narrator: You step back slightly. Dad doesn't appear to notice.
+
+SPRITE DISSAPEARS HERE, KEEP BACKGROUND
+
+Dad: Then there's wardrobe! Have to pick out a style that suits!
+Narrator: You're almost to the door!
+Dad: Then, accessories!
+You: Sweet, sweet escape.
+
+FADE TO BLACK
+
+You'll come back later, once he's cooled off a bit...
+The most important thing is that you got back into contact with him.
+You're able to work towards making things right again.
+The thought of that makes your heart feel full and satisfied.
+There's a long road ahead for everyone, but you've taken the first steps to repair all the bonds you broke before.
+
+-FIN-
