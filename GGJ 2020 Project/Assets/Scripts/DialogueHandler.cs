@@ -44,7 +44,6 @@ public class DialogueHandler : MonoBehaviour
             {
                 currentLine++;
                 text.text = dialogue[currentLine];
-                Debug.Log(currentExpression);
                if (currentLine == spriteChangePos[currentExpression])
                {
                     character.sprite = chars.GetSprite(spriteExpressions[currentExpression]);
